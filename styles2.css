@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(120, 119, 119);
+}
+
+
+
+
+.flex{
+    display: flex;
+    text-align: center;
+}
+
+
+
+.x{
+    flex-grow:1;
+    
+}
+.flex div{
+    flex-grow:5;
+    flex-basis: 0%;
+  font-size: 80px;
+    color: white;
+    margin:10px;
+    padding:10px;
+    height: max-content;
+}
+
+.flex .item2{
+    flex-grow:1;
+    height: 30px;
+    font-family: 'Mulish';
+    text-align: right;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    color:red;
+}
+
+.flex-tableau{
+    display: flex;
+    
+}
+
+.flex-tableau div{
+  
+    
+    font-size: 30px;
+    
+    
+    padding:10px;
+    height: max-content;   
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+.liste{
+    font-size: 50px;
+}
